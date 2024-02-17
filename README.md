@@ -5,6 +5,7 @@ Les modules nécessaires sont les suivants :
 - Math
 - Csv
 - MatPlotLib
-Afin de faciliter le téléchargement, entrer les cmmandes suivantes dans l'invite de commandes :
+- 
+Afin de faciliter le téléchargement, entrer les commandes suivantes dans l'invite de commandes :
   "cd" + chemin du dossier
   "pip install -r requirements.txt"
