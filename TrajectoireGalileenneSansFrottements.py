@@ -59,6 +59,7 @@ def create_plot_1():
     del y[0]
     fig, axs = plt.subplots(2, 1)
     plt.subplots_adjust(hspace=0.33)
+    axs[0].plot(x, y)
     axs[0].scatter(x, y)
     axs[0].grid()
     axs[0].set_xlabel('Distance (m)')
