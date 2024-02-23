@@ -57,17 +57,13 @@ def create_plot_1():
         t += float(delta_time)
     del x[0]
     del y[0]
-    fig, axs = plt.subplots(2, 1)
+    fig, axs = plt.subplots(1, 1)
     plt.subplots_adjust(hspace=0.33)
     axs[0].plot(x, y)
     axs[0].scatter(x, y)
     axs[0].grid()
     axs[0].set_xlabel('Distance (m)')
     axs[0].set_ylabel('Altitude (m)')
-    axs[1].scatter(t_range, y)
-    axs[1].grid()
-    axs[1].set_xlabel('Temps (s)')
-    axs[1].set_ylabel('Altitude (m)')
     return fig
 
 def draw_figure_1(canvas):
